@@ -15,13 +15,13 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="navbar-nav flex-row mx-auto">
           <li className="nav-item px-3">
-            <Link to='/' className="nav-link text-dark fw-bold" >Brand</Link>
+            <Link to='/' className="nav-link text-dark fw-bold" >Home</Link>
           </li>
           <li className="nav-item px-3">
             <a className="nav-link text-dark fw-bold" href="#about">About us</a>
           </li>
           <li className="nav-item px-3">
-            <Link to='/menu' className="nav-link text-dark fw-bold" >Center of Excellence</Link>
+            <Link to='/menu' className="nav-link text-dark fw-bold" >Menu</Link>
           </li>
           <li className="nav-item px-3">
             <Link className="nav-link text-dark fw-bold" href="#media">Cart</Link>

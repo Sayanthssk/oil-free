@@ -53,6 +53,20 @@ const Menu = () => {
       { name: 'Bell peppers stuffed with quinoa and black beans', price: 1500, description: 'Bell peppers stuffed with quinoa and black beans; stir-fried veggies with tofu, ginger, and garlic—all prepared without oil.', img: 'https://krollskorner.com/wp-content/uploads/2019/08/Quinoabellpepblog5-1024x1536.jpg' },
       { name: 'Bell peppers stuffed with quinoa and black beans', price: 1500, description: 'Bell peppers stuffed with quinoa and black beans; stir-fried veggies with tofu, ginger, and garlic—all prepared without oil.', img: 'https://krollskorner.com/wp-content/uploads/2019/08/Quinoabellpepblog5-1024x1536.jpg' },
       { name: 'Bell peppers stuffed with quinoa and black beans', price: 1500, description: 'Bell peppers stuffed with quinoa and black beans; stir-fried veggies with tofu, ginger, and garlic—all prepared without oil.', img: 'https://krollskorner.com/wp-content/uploads/2019/08/Quinoabellpepblog5-1024x1536.jpg' },
+    ],
+    starters: [
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
+      { name: 'Bottleguard juice', price: 100, description: 'Bootlegard juice is a refreshing, all-natural drink made from the finest fruits, offering a delicious blend of flavors in every sip.', img: 'https://plus.unsplash.com/premium_photo-1726842349563-ef50f38be8c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHZlZ2V0YWJsZSUyMGp1aWNlJTIwYW5kJTIwc25hY2tzJTIwaW1hZ2VzfGVufDB8fDB8fHww' },
     ]
   };
 
@@ -64,13 +78,14 @@ const Menu = () => {
   return (
     <div>
         <Navbar />
+        <Cart cartItems={cartItems} setCartItems={setCartItems} handleAddToCart={handleAddToCart} />
 
       <div className="container-fluid  bg-primary-subtle">
         <h2 className="text-center mb-4">Our Menu</h2>
 
         {/* Meal Type Selection */}
         <div className="d-flex justify-content-center mb-5">
-          {['breakfast', 'lunch', 'dinner'].map((section) => (
+          {['breakfast', 'lunch', 'dinner', 'starters'].map((section) => (
             <button
               key={section}
               className="btn btn-outline-primary mx-2"
@@ -111,7 +126,7 @@ const Menu = () => {
       </div>
       
       {/* Pass handleAddToCart to Cart component */}
-      <Cart cartItems={cartItems} setCartItems={setCartItems} handleAddToCart={handleAddToCart} />
+      
     </div>
   );
 };
