@@ -1,0 +1,27 @@
+.navbar {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+    color: #002366; /* Navy blue text */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: #002366; /* Navy blue button */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #001a4d; /* Slightly darker navy */
+  }
+  
+  .navbar img {
+    max-height: 50px;
+  }
+  
