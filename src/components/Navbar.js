@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light shadow-sm" style={{ background: 'linear-gradient(to bottom, #f3da94, #fce6b5)' }}>
+    <nav className="navbar navbar-expand-lg navbar-light shadow-sm"  style={{ background: 'linear-gradient(to bottom, #f3da94, #fce6b5)' }}>
       <div className="container d-flex align-items-center justify-content-between">
         {/* Logos */}
         <div className="d-flex align-items-center">
@@ -15,29 +15,25 @@ const Navbar = () => {
         {/* Navigation Links */}
         <ul className="navbar-nav flex-row mx-auto">
           <li className="nav-item px-3">
-            <Link to='/' className="nav-link text-dark fw-bold" >Home</Link>
+            <Link to='/' className="nav-link fw-bold text-dark" >Home</Link>
           </li>
           <li className="nav-item px-3">
-            <a className="nav-link text-dark fw-bold" href="#about">About us</a>
+            <a className="nav-link  fw-bold text-dark" style={{color: 'gold'}} href="#about">About us</a>
           </li>
           <li className="nav-item px-3">
-            <Link to='/menu' className="nav-link text-dark fw-bold" >Menu</Link>
+            <Link to='/menu' className="nav-link text-dark  fw-bold" style={{color: 'gold'}} >Menu</Link>
           </li>
+          
+          
           <li className="nav-item px-3">
-            <Link className="nav-link text-dark fw-bold" href="#media">Cart</Link>
-          </li>
-          <li className="nav-item px-3">
-            <a className="nav-link text-dark fw-bold" href="#careers">Careers</a>
-          </li>
-          <li className="nav-item px-3">
-            <a className="nav-link text-dark fw-bold" href="#contact">Contact Us</a>
+            <a className="nav-link text-dark fw-bold" href="#contact" style={{color: 'gold'}}>Contact Us</a>
           </li>
         </ul>
         {/* Order Online Button */}
         <div>
-          <button className="btn btn-primary px-4" style={{ borderRadius: '30px' }}>
+          <Link to='/menu' className="btn btn-outline-primary px-4" style={{ borderRadius: '30px' }}>
             Order Online
-          </button>
+          </Link>
         </div>
       </div>
     </nav>

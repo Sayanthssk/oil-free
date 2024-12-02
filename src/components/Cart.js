@@ -11,7 +11,7 @@ const Cart = ({ cartItems, setCartItems, handleAddToCart }) => {
   };
 
   return (
-    <div className="container-fluid  bg-danger-subtle">
+    <div className="container-fluid  bg-primary-subtle">
       {/* Notification for adding an item to the cart */}
       {notification && (
         <div className="alert alert-success alert-dismissible fade show" role="alert">
@@ -37,7 +37,7 @@ const Cart = ({ cartItems, setCartItems, handleAddToCart }) => {
                   <div className="d-flex justify-content-between align-items-center">
                     <span className="h5">${item.price}</span>
                     <button
-                      className="btn btn-danger"
+                      className="btn btn-outline-primary"
                       onClick={() => handleRemoveFromCart(index)} // Remove item from cart
                     >
                       Remove
